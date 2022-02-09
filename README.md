@@ -26,12 +26,12 @@ Don't expect to create production keys on the first try.
 NOTE: Step 4.3 has two scripts - run 4.3a the first time you register the stake pool, and run 4.3b subsequently when updating
 pool information.
 
-## Requirements: 
+## Requirements
   - must be run on a node with cardano-cli
   - requires hot and cold nodes, although a single
     node can act as both if you're running on a testnet
 
-## Install: 
+## Install
   - edit `config` to set the network and directories
   - edit `4.2-cold-register_pool`; set your margin, pledge, and server information
   - Edit `poolMetaData.json` - see https://developers.cardano.org/docs/stake-pool-course/handbook/register-stake-pool-metadata/
@@ -43,7 +43,7 @@ pool information.
   - On the hot node, create a symlink (or copy) called 'shelley-genesis.json' pointing
     to a copy of the <network>-shelley-genesis.json for your network.
 
-## Usage: 
+## Usage
   - Run the scripts in the order they are numbered. 
   - 1.* should only be run once, to setup and verify your environment
   - Three directories will be created: 
