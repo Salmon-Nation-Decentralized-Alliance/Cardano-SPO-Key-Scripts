@@ -43,6 +43,14 @@ pool information.
   - On the hot node, create a symlink (or copy) called 'shelley-genesis.json' pointing
     to a copy of the <network>-shelley-genesis.json for your network.
 
+## Usage: 
+  - Run the scripts in the order they are numbered. 
+  - 1.* should only be run once, to setup and verify your environment
+  - Three directories will be created: 
+    - `hot` = files which belong on the hot node. 
+    - `cold` = files which belong on the cold node, and must never leave the cold node. 
+    - `share` = files which must be transferred between the hot and cold node. EG: to sign transactions. 
+
 ## FAQ
 
 Q: I ran the scripts, I have stake pool keys, and my pool is registerd. How do I update the pool registration to change rates, metadata, etc?
