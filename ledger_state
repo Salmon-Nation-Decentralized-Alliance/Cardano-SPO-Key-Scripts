@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+. config
+
+cardano-cli query ledger-state $NETWORK1 $NETWORK2
+
