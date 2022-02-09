@@ -1,4 +1,4 @@
-# SPO Key Scripts
+# Cardano SPO Key Scripts
 
 Scripts for creating and rotating Cardano SPO block-producing keys.
 
