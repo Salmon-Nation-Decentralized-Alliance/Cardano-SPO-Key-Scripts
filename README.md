@@ -34,12 +34,12 @@ pool information.
 ## Install: 
   - edit `config` to set the network and directories
   - edit `4.2-cold-register_pool`; set your margin, pledge, and server information
-  - Edit poolMetaData.json - see https://developers.cardano.org/docs/stake-pool-course/handbook/register-stake-pool-metadata/
-  - Edit poolMetaData.url - containing a URL where people can download the aforementioned poolMetaData.json file.
-  - Edit poolMetaData-extended.json - see https://developers.cardano.org/docs/governance/cardano-improvement-proposals/cip-0006/
+  - Edit `poolMetaData.json` - see https://developers.cardano.org/docs/stake-pool-course/handbook/register-stake-pool-metadata/
+  - Edit `poolMetaData.url` - containing a URL where people can download the aforementioned poolMetaData.json file.
+  - Edit `poolMetaData-extended.json` - see https://developers.cardano.org/docs/governance/cardano-improvement-proposals/cip-0006/
   - Copy these files onto 
-       a. offline (cold) node 
-       b. online (hot) block producer. Wait for the block producer to be in sync with the network.
+      - offline (cold) node 
+      - online (hot) block producer. Wait for the block producer to be in sync with the network.
   - On the hot node, create a symlink (or copy) called 'shelley-genesis.json' pointing
     to a copy of the <network>-shelley-genesis.json for your network.
 
