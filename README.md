@@ -5,6 +5,13 @@ Scripts for creating and rotating Cardano SPO block-producing keys.
 **This repo and the [companion Miro board](https://miro.com/app/board/uXjVOOPT35Y=/) are COMPANION documentation to (not replacement of) the excellent
 [CoinCashew](https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node) guide.**
 
+More specifically, these scripts and the Miro board cover the following sections of the CoinCashew guide: 
+
+  9. [Generate block-producer keys](https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node#9.-generate-block-producer-keys)
+  10. [Setup payment and stake keys](https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node#10.-setup-payment-and-stake-keys)
+  11. [Register your stake address](https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node#11.-register-your-stake-address)
+  12. [Register your stake pool](https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node#12.-register-your-stake-pool)
+
 ## Miro Board Diagram
 
 See [Cardano Stake Pool Keys](https://miro.com/app/board/uXjVOOPT35Y=/) on Miro for a visual representation of how 
