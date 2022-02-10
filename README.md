@@ -2,6 +2,9 @@
 
 Scripts for creating and rotating Cardano SPO block-producing keys.
 
+**This repo and the [companion Miro board] are COMPANION documentation to (not replacement of) the excellent
+[CoinCashew](https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node) guide.**
+
 ## Miro Board Diagram
 
 See [Cardano Stake Pool Keys](https://miro.com/app/board/uXjVOOPT35Y=/) on Miro for a visual representation of how 
