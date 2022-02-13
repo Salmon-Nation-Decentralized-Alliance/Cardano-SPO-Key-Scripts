@@ -38,8 +38,8 @@ pool information.
 
 ## Requirements
   - must be run on a node with cardano-cli
-  - requires hot and cold nodes, although a single
-    node if you're unconcerned about security
+  - requires hot and cold nodes, although you can use a single
+    node for both hot+cold roles if you're unconcerned about security
 
 ## Install
   - edit `config` to set the network and directories
