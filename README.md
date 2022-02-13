@@ -39,7 +39,7 @@ pool information.
 ## Requirements
   - must be run on a node with cardano-cli
   - requires hot and cold nodes, although a single
-    node can act as both if you're running on a testnet
+    node if you're unconcerned about security
 
 ## Install
   - edit `config` to set the network and directories
