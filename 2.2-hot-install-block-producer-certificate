@@ -8,7 +8,7 @@ set -o pipefail   # Exit immediately with error if any command in a pipe chain e
 ensure_we_are_hot_node
 
 set +e
-certs=$(ls -1 $SHARE | grep node.cert)
+certs=$(ls -1 $SHARE | grep 'node.cert\.')
 set -e
 if [ "x$certs" != "x" ]; then 
   for cert in $(ls -1 $SHARE/node.cert.*); do

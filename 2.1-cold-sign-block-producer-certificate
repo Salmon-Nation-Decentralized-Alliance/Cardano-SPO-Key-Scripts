@@ -10,7 +10,7 @@ ensure_we_are_cold_node
 kesPeriod=$(cat $SHARE/kesPeriod)
 
 echo " "
-for vkey in $(ls $SHARE/kes.vkey*); do
+for vkey in $(ls $SHARE/kes.vkey.*); do
   TIMESTAMP=$(echo $vkey | sed 's/.*kes.vkey.//')
   cert=$SHARE/node.cert.$TIMESTAMP
   echo "$TIMESTAMP  Sign  $vkey -> $cert "
